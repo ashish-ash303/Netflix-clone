@@ -1,0 +1,99 @@
+.login {
+  width: 100%;
+  object-fit: contain;
+  position: relative;
+  background: url(https://i.ibb.co/vXqDmnh/background.jpg) no-repeat center
+    center/cover;
+  z-index: 1;
+  box-shadow: inset 120px 100px 250px #000000, inset -120px -100px 250px #000000;
+  color: white;
+  height: 100vh;
+  overflow: hidden;
+}
+.login__content {
+  background-color: #0c0506;
+  display: flex;
+  flex-direction: column;
+  max-width: 30%;
+  height: 500px;
+  margin-top: 60px;
+  margin-left: 30ox;
+  text-align: flex-start;
+  object-fit: contain;
+  box-sizing: border-box;
+  border-radius: 4px;
+  width: 100%;
+  justify-content: flex-start;
+  padding: 30px 70px;
+  margin-left: 585px;
+  /* padding-left: 300px; */
+}
+
+.login__enter {
+  display: flex;
+  flex-direction: column;
+  color: rgb(59, 59, 59);
+  width: 100%;
+  padding-top: 20px;
+}
+.login__enter > .login__email,
+.login__button,
+.login__password {
+  margin: 10px;
+  align-items: center;
+  font-size: 16px;
+  background-color: rgb(59, 59, 59);
+  color: white;
+  height: 50px;
+  line-height: 50px;
+  padding: 1px 2px;
+  border-radius: 6px;
+  border: 1px solid;
+}
+
+.login__button {
+  width: 100%;
+  cursor: pointer;
+
+  background-color: #e50914;
+  text-align: center;
+}
+
+.login__input {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.login__more {
+  align-items: center;
+  padding: 2px;
+}
+.login__more > h5 {
+  /* align-items: center; */
+  text-align: flex-start;
+  cursor: pointer;
+}
+.login__footer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: #0c0506;
+  height: 40vh;
+  margin-top: 40px;
+  margin-left: 0;
+  color: #757575;
+}
+.loginfooter_question {
+  margin-left: 60px;
+}
+.loginform__notes {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin-left: 60px;
+  padding: 6px;
+}
+.login__logo {
+  display: flex;
+  width: 140px;
+  padding-top: 20px;
+}
